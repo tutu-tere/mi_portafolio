@@ -1,8 +1,11 @@
 
 @import 'abstracts/variables';
 
-@import 'base/reset';
+@import 'base/reset',
+        'base/typography';
 
 @import 'vendors/bootstrap';
 
 @import 'components/icons';
+
+@import 'themes/themes';
