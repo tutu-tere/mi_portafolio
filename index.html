@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Link icon Awesome -->
+  <script src="https://kit.fontawesome.com/36db41983a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-primario-subtle">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+          src="assets/img/Logo_tere.png"
+          alt="Bootstrap"
+          width="100"
+          height="50"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#">Mis Habilidades</a>
+          <a class="nav-link" href="#">Proyectos</a>
+          <a class="nav-link">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="container hero-section">
+    <div class="row">
+      <div class="col">
+<img src="assets/img/undraw_programmer_re_owql.svg" alt="Logo_Hero">
+      </div>
+  <div class="col"> <h1>Soy Teresa Olivares</h1> <br>
+  <h2>Desarrolladora FrontEnd</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis quae impedit, voluptatum deserunt veritatis laborum quidem corporis dicta doloremque explicabo recusandae asperiores ab perferendis necessitatibus laudantium sed possimus esse.</p> 
+  <button type="submit" class="btn btn-primary">Contactame</button>
+  </div>
+</div>
+</section>
+
+<section class="container habilities">
+  <h3 class="text-center">Mis habilidades</h3>
+  <div class="row">
+    <!-- Html -->
+    <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-skill fa-brands fa-html5"></i>
+      <p class="fs-5 mb-0">HTML</p>
+  </div>
+  <!-- CSS -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-skill fa-brands fa-css3-alt"></i>
+      <p class="fs-5 mb-0">CSS</p>
+  </div>
+  <!-- Sass -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-skill fa-brands fa-sass"></i>
+      <p class="fs-5 mb-0">Sass</p>
+  </div>
+  <!-- Bootstrap -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-skill fa-brands fa-bootstrap"></i>
+      <p class="fs-5 mb-0">Bootstrap</p>
+  </div>
+  <!-- GitHub -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-skill fa-brands fa-github"></i>
+      <p class="fs-5 mb-0">GitHub</p>
+  </div>
+  <!-- Git -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+    <i class="fa-skill fa-brands fa-git-alt"></i>
+    <p class="fs-5 mb-0">Git</p>
+  </div>
+  <!-- JavaScript -->
+  <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+    <i class="fa-brands fa-js"></i>
+    <p class="fs-5 mb-0">JavaScript</p>
+    <div class="d-flex gap-2 mx-md-4 col-6 col-md-2 col-lg-1">
+      <i class="fa-brands fa-vuejs"></i>
+      <p class="fs-5 mb-0">Vue</p>
+  </div>
+</section> 
+<div class="container" id="proyectos">
+  <div class="row">
+      <div class="col text-center mb-4">
+          <h2>Mis Proyectos</h2>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-6 col-sm-3">
+          <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+          <h4>Meet & Coffe</h4>
+      </div>
+      <div class="col-6 col-sm-3">
+          <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+          <h4>Meet & Coffe</h4>
+      </div>
+      <div class="col-6 col-sm-3">
+          <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+          <h4>Meet & Coffe</h4>
+      </div>
+      <div class="col-6 col-sm-3">
+          <img src="assets/img/meetcoffee.png" alt="" class="w-100">
+          <h4>Meet & Coffe</h4>
+      </div>
+  </div>
+</div>
+  <!-- Contacto -->
+  <div class="container pt-4">
+    <div class="row">
+      <h2 class="text-center">Contáctame</h2>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <!-- Formulario Componente -->
+        <form class="p-5">
+          <div class="mb-3">
+            <div class="row g-3">
+              <div class="col mb-3">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              </div>
+            </div>
+            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Tu Email">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="mt-5 mb-4">
+          <i class="fa-solid fa-phone me-2"></i>
+          <span> +56-991061086</span>
+        </div>
+        <div class="mt-4 mb-4" >
+          <i class="fa-solid fa-envelope me-2"></i>
+          <span>teresaolivaresrueda@gmail.com</span> 
+        </div>
+        <div  class="mt-4 mb-4" >
+          <i class="fa-brands fa-linkedin me-2"></i>
+          <span>Mi Linkedin</span>
+        </div>
+        <div  class="mt-4 mb-4" >
+          <i class="fa-brands fa-github me-2"></i>
+          <span>Mi GitHub</span>
+        </div>
+        <div class="mt-4 mb-4">
+          <i class="fa-brands fa-instagram me-2"></i>
+          Mi Instagram
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
